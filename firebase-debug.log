@@ -1,0 +1,44 @@
+[debug] [2023-07-10T05:06:37.337Z] ----------------------------------------------------------------------
+[debug] [2023-07-10T05:06:37.339Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-07-10T05:06:37.339Z] CLI Version:   12.4.3
+[debug] [2023-07-10T05:06:37.340Z] Platform:      darwin
+[debug] [2023-07-10T05:06:37.340Z] Node Version:  v18.16.0
+[debug] [2023-07-10T05:06:37.341Z] Time:          Mon Jul 10 2023 12:06:37 GMT+0700 (Indochina Time)
+[debug] [2023-07-10T05:06:37.341Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-10T05:06:37.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-10T05:06:37.405Z] > authorizing via signed-in user (thanhdo.821995@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/do/Downloads/prj-forms-final
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-07-10T05:06:39.329Z] Using project from CLI flag: myangularrecipebook
+[debug] [2023-07-10T05:06:39.331Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myangularrecipebook [none]
+[debug] [2023-07-10T05:06:39.816Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myangularrecipebook 200
+[debug] [2023-07-10T05:06:39.816Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myangularrecipebook {"projectId":"myangularrecipebook","projectNumber":"1041862625976","displayName":"MyAngularRecipeBook","name":"projects/myangularrecipebook","resources":{"hostingSite":"myangularrecipebook"},"state":"ACTIVE","etag":"1_1767af7d-e7fb-47e9-ba09-880c76f62b14"}
+[info] i  Using project myangularrecipebook (MyAngularRecipeBook) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
